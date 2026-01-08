@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./AddEntry.css";
 
 const AddEntry = () => {
   const [transactionId, setTransactionId] = useState("");
@@ -18,8 +19,9 @@ const AddEntry = () => {
   };
 
   return (
-    <form>
-      <h3>Add Entry</h3>
+    <form className="add-entry-form">
+     <h3 className="add-entry-title">Add Entry</h3>
+
 
       <input
         placeholder="Transaction ID"

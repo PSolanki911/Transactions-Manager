@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import EditEntry from "./EditEntry";
+import "./EntryTable.css";
 
 
 const EntryTable = () => {
@@ -24,7 +25,8 @@ const EntryTable = () => {
   };
 
   return (
-    <table border="1" cellPadding="8">
+    <div className="table-wrapper">
+    <table>
       <thead>
         <tr>
           <th>Transaction ID</th>
@@ -66,6 +68,7 @@ const EntryTable = () => {
         )}
       </tbody>
     </table>
+    </div>
   );
 };
 

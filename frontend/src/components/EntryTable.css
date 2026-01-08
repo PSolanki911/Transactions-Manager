@@ -1,0 +1,56 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table Header */
+thead {
+  background-color: #2563eb;
+}
+
+thead th {
+  color: #ffffff;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Table Rows */
+tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+tbody td {
+  padding: 12px;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+/* Action Buttons */
+.action-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.edit-btn {
+  background-color: #38bdf8;
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: #fff;
+}

@@ -1,13 +1,19 @@
 import AddEntry from "../components/AddEntry";
 import EntryTable from "../components/EntryTable";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div style={{ padding: "20px" }}>
-      <h2>Transactions Manager</h2>
-      <AddEntry />
-      <hr />
-      <EntryTable />
+    <div className="home-container">
+      <h2 className="home-title">Transactions Manager</h2>
+      <div className="card">
+        <AddEntry />
+      </div>
+      <div className="divider"></div>
+      <div className="card">
+        <EntryTable />
+      </div>
+      
     </div>
   );
 };
