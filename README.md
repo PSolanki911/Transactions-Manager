@@ -53,7 +53,8 @@ Backend:
 
 * Open the Terminal and paste this command:-
   
-git clone https://github.com/PSolanki911/Transactions-Manager
+git clone https://github.com/PSolanki911/Transactions-Manager  
+
 cd Transactions-Manager
 
 * Next, start the backend server:
