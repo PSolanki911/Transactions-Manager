@@ -7,11 +7,16 @@ The frontend of the project is built using React.Js, and the backend is develope
 
 * Project Structure
 
-Transactions-Manager/
-|
-|-- Backend/      * Backend (Node.js, Express, MongoDB)
-|-- frontend/     * Frontend (React)
-|-- .gitignore
+Transactions-Manager/  
+
+|  
+
+|-- Backend/      * Backend (Node.js, Express, MongoDB)  
+
+|-- frontend/     * Frontend (React)  
+
+|-- .gitignore  
+
 |-- README.md
 
 ---
@@ -47,14 +52,18 @@ Backend:
 * First, clone the repository and move into the project folder:
 
 * Open the Terminal and paste this command:-
+  
 git clone https://github.com/PSolanki911/Transactions-Manager
 cd Transactions-Manager
 
 * Next, start the backend server:
 
-cd Backend
-npm install
-npm start
+cd Backend  
+
+npm install  
+
+npm start  
+
 
 
 * The backend will start running on:
@@ -64,9 +73,12 @@ http://localhost:5000
 
 * Now, open a new terminal and start the frontend server:
 
-cd frontend
-npm install
-npm start
+cd frontend  
+
+npm install  
+
+npm start  
+
 
 
 * The frontend will run on:
