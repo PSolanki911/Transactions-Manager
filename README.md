@@ -46,8 +46,8 @@ Backend:
 
 * First, clone the repository and move into the project folder:
 
-* Open the Terminal and paste this comman:-
-git https://github.com/PSolanki911/Transactions-Manager
+* Open the Terminal and paste this command:-
+git clone https://github.com/PSolanki911/Transactions-Manager
 cd Transactions-Manager
 
 * Next, start the backend server:
