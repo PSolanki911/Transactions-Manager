@@ -8,7 +8,6 @@ table {
   margin-top: 10px;
 }
 
-/* Table Header */
 thead {
   background-color: #2563eb;
 }
@@ -20,7 +19,6 @@ thead th {
   font-size: 14px;
 }
 
-/* Table Rows */
 tbody tr {
   border-bottom: 1px solid #e5e7eb;
 }
@@ -35,7 +33,6 @@ tbody td {
   color: #0f172a;
 }
 
-/* Action Buttons */
 .action-btn {
   padding: 6px 12px;
   border-radius: 6px;
