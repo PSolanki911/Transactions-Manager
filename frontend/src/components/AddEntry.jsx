@@ -45,7 +45,6 @@ const AddEntry = () => {
         placeholder="Amount"
         value={amount}
         onChange={(e) => setAmount(e.target.value)}
-        required
       />
 
       <input
